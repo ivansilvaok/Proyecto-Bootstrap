@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo de Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <h1 align="center">Lionel <span class="badge text-bg-secondary">Messi</span></h1>
+    <div class="card mx-auto" style="width: 18rem;" align="center">
+        <img src="img/64143077_902.jpg" alt="..." class="img-fluid">
+        <div class="card-body">
+          <h5 class="card-title">Lionel Messi</h5>
+          <p class="card-text">Lionel Andrés Messi Cuccittini, conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista</p>
+          <a href="messi.html" class="btn btn-warning" target="_blank">Conoce su historia</a>
+        </div>
+      </div><br>
+<hr>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col bg-info border border-dark">
+          </div>
+          <div class="col-6 bg-info border border-dark">
+          </div>
+          <div class="col bg-info border border-dark">
+           .
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col border border-dark">
+          </div>
+          <div class="col-1 bg-warning border border-dark">
+          </div>
+          <div class="col border border-dark">
+            .
+          </div>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col bg-info border border-dark">
+            .
+          </div>
+          <div class="col-6 bg-info border border-dark">
+          </div>
+          <div class="col bg-info border border-dark">
+          </div>
+        </div>
+<hr><br>
+<h5>Participa por 3 entradas para ver a la Selección Argentina</h5>
+      <table class="table border border-dark" >
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">DNI</th>
+            <th scope="col">Contacto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td><input type="text" name="nombre"></td>
+            <td><input type="text" name="apellido"></td>
+            <td><input type="text" name="pedido"></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td><input type="text" name="nombre2"></td>
+            <td><input type="text" name="apellido2"></td>
+            <td><input type="text" name="pedido2"></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td><input type="text" name="nombre3"></td>
+            <td><input type="text" name="apellido3"></td>
+            <td><input type="text" name="pedido3"></td>
+          </tr>
+      </table>
+      
+      <div class="form-check d-flex justify-content-center" >
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">Acepto terminos y condiciones</label>
+      </div>
+
+
+      <!-- Button trigger modal -->
+<center><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Actualizar
+</button><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+  Eliminar registro
+</button></center>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><b>REGISTRO</b></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form action="registro.html" method="post" target="_blank">
+      <div class="modal-body">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="nombre">
+            </div><br>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="DNI" aria-label="dni">
+                </div><br>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Contacto" aria-label="contacto">
+                    </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Eliminar</button>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
